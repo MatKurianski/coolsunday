@@ -16,7 +16,7 @@ git pull
   
 ## Se for a Primeira vez
 ```
-git clone https://github.com/andfenastari/server-template
+git clone https://github.com/andfenastari/coolsunday
 ```
 
 ## Se criar novos arquivos, fazer isso 
