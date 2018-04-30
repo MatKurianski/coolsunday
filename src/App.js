@@ -71,7 +71,7 @@ class App extends Component {
           <div class="card-text">
             Preço: R$2,00.
             <br />
-            <a style={{margintop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
+            <a style={{marginTop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ class App extends Component {
           <div class="card-text">
             Preço: R$ 5,00
             <br />
-            <a style={{margintop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
+            <a style={{marginTop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ class App extends Component {
           <div class="card-text">
             Preço: R$ 1,00
             <br />
-            <a style={{margintop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
+            <a style={{marginTop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       </div>
@@ -122,7 +122,7 @@ class App extends Component {
           <div class="card-text">
             Preço: R$ 2,00
             <br />
-            <a style={{margintop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
+            <a style={{marginTop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@ class App extends Component {
           <div class="card-text">
             Preço: R$ 1,50
             <br />
-            <a style={{margintop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
+            <a style={{marginTop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@ class App extends Component {
           <div class="card-text">
             Preço: R$ 0,80
             <br />
-            <a style={{margintop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
+            <a style={{marginTop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@ class App extends Component {
           <div class="card-text">
             Preço: R$ 69,00
             <br />
-            <a style={{margintop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
+            <a style={{marginTop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       </div>
@@ -191,7 +191,7 @@ class App extends Component {
           <div class="card-text">
             Preço: R$ 1,00
             <br />
-            <a style={{margintop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
+            <a style={{marginTop: '10px'}} href="#" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       </div>
