@@ -8,6 +8,7 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="../js/autenticacao.js"></script>
 </head>
 <style>
 	
@@ -107,6 +108,8 @@
 			<div class="card text-center center-block" > 
 				<div class="card-block box" >
 					<div class="card-title"> <br>
+
+								<form method="POST" action="/login" class="form">		
 						<h4 class="card-title-text">Login</h4>
 					</div>
 					<label for="uname"><b>Usuário</b></label>
@@ -114,7 +117,7 @@
     <label for="psw"><b>Senha</b></label>
     <input type="password" placeholder="Escreva a senha" name="psw" required>
     <button type="submit" class="large-button">Login</button>
-   
+   </form>
 
 <div class="container" style="background-color:#f1f1f1">
     <span class="psw">Esqueceu a<a href="#"> senha?</a></span> <br>
@@ -131,6 +134,13 @@
 	</div>
 </div>
 <style>
+
+.form{
+margin:auto;
+border: none;
+
+}
+
 .register{
 
 
