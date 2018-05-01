@@ -2,9 +2,9 @@
   "name": "node-react",
   "version": "1.0.0",
   "scripts": {
-    "client": "cd client && npm start",
+    "client": "cd client && yarn start",
     "server": "node server.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+    "dev": "concurrently --kill-others-on-fail \"yarn run server\" \"yarn run client\""
   },
   "dependencies": {
     "express": "^4.16.2"
