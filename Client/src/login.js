@@ -15,12 +15,12 @@ class Login extends Component {
                 <h4 className="card-title-text">Login</h4>
               </div>
 
-              <form method="POST" action="/login" className="form">		
+              <form className="form">		
                 <label for="uname"><b>Usuário</b></label>
-                <input type="text" placeholder="Escreve seu usuario" name="username" required />
+                <input type="text" placeholder="Escreva seu usuario" name="username" required />
                 <label for="psw"><b>Senha</b></label>
                 <input type="password" placeholder="Escreva a senha" name="password" required />
-                <button type="submit" className="large-button">Login</button>
+                <button className="large-button">Login</button>
               </form>
 
               <div className="container" style={{backgroundColor:'#f1f1f1'}}>

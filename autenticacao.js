@@ -2,13 +2,10 @@
 
 var express = require('express');
 
-<<<<<<< HEAD:Client/src/autenticacao.js
 /*
 var express = require('express');
 var bodyParser = require('body-parser');
-=======
 
->>>>>>> 033211b570e75121b2d82975bc57e69a5397b03a:autenticacao.js
 var path = require('path');
 //var fs = require('fs');
 //target: 'node';

@@ -18,15 +18,13 @@ class App extends Component {
     
     return (
   <BrowserRouter>
-  <div>
-    <Navbar />
-    <Route path="/" exact component={Produtos} />
-    <Route path="/login" exact component={Login} />
-    <Route path="/sobre" exact component={Sobre} />
-  </div>
-</BrowserRouter>
-
-
+    <div>
+      <Navbar />
+      <Route path="/" exact component={Produtos} />
+      <Route path="/login" exact component={Login} />
+      <Route path="/sobre" exact component={Sobre} />
+    </div>
+  </BrowserRouter>
     );
   }
 }
