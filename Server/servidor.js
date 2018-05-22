@@ -58,8 +58,6 @@ app.get("/api", function(req, res) {
 
 app.get('/api/get-cards', (req, res) => {
     let produtos = getProducts(db, (err, produtos) => {
-        //let ting = JSON.stringify(produtos);
-        //console.log(ting);
         if (err) {
             console.log(err);
         } else {
@@ -76,4 +74,3 @@ app.post('/api/post-card', (req, res) => {
 });
 
 app.listen(5000, () => console.log("Servidor rodando local na porta 5000"));
-//db.close();
