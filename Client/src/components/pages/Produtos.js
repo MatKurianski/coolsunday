@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Card from './card';
-import Loading from './Loading'
+import Card from './../card';
+import Loading from './../Loading'
 class Produtos extends Component {
     constructor() {
         super();

@@ -2,18 +2,13 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Navbar from './navbar';
-import Produtos from './Produtos';
-import Login from './login';
-import Sobre from './sobre';
+import Navbar from './components/navbar.js';
+import Produtos from './components/pages/Produtos';
 
-import bootstrap from './site/style/bootstrap.min.css';
-import estilo from './site/style/App.css';
-
+import estilo from './App.css';
+import './assets/bootstrap.min.css'
 
 class App extends Component {
-
-
   render() { 
     
     return (
@@ -21,8 +16,6 @@ class App extends Component {
     <div>
       <Navbar />
       <Route path="/" exact component={Produtos} />
-      <Route path="/login" exact component={Login} />
-      <Route path="/sobre" exact component={Sobre} />
     </div>
   </BrowserRouter>
     );
