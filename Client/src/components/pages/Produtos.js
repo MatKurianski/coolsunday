@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Card from './../card';
 import Loading from './../Loading'
 import Section from './../section';
 
@@ -42,7 +41,7 @@ class Produtos extends Component {
                 <Section name="Salgados" cards={this.state.cards} categoria={"salgado"} />
                 <Section name="Todos" cards={this.state.cards} categoria={"todas"} />
               </div>
-              : null}
+              : <Loading />}
             </div>
           </div>
         );

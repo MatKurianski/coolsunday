@@ -25,7 +25,7 @@ class Loading extends Component {
     render() {
         return(
         <div style={{textAlign: 'center'}}>
-            <h1>Carregando{this.state.p}</h1>
+            <h1 style={{color: 'white'}}>Carregando{this.state.p}</h1>
             <br />
             <img src={gif} width='80px'/>
         </div>

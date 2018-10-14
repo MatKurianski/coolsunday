@@ -80,11 +80,11 @@ const express = require('express');
 
 const app = express();
 
-// app.use((req, res, next) => {
-//     setTimeout(() => {
-//         next();
-//     }, 3000);
-// });
+app.use((req, res, next) => {
+    setTimeout(() => {
+        next();
+    }, 3000);
+});
 
 app.get('/cards', (req, res) => {
     fs.readFile('Server/cards.json', 'utf-8', (err, data) => {
