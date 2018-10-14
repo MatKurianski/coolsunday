@@ -1,13 +1,32 @@
 [ 
-        {
-            "nome": "Cone Wilson",
-            "preco": "5 reais"  
-        },
-        {
-            "nome": "teste2",
-            "preco": "teste"  
-        },{
-            "nome": "teste3",
-            "preco": "teste"  
-        }
+  {
+    "nome": "Cone Wilson",
+    "preco": "5",
+    "categoria": "doce",
+    "src": "https://img.elo7.com.br/product/original/1B512C5/cone-trufado-casquinha-de-sorvete-cone-trufado-festa-chocolate-brigadeiro-oreo-unicornio.jpg"  
+  },
+  {
+    "nome": "Tapioca",
+    "preco": "5",
+    "categoria": "salgado",
+    "src": "http://www.ovosmantiqueira.com.br/wp-content/uploads/2016/05/tapioca.jpg"  
+  },
+  {
+    "nome": "Sanduba",
+    "preco": "5",
+    "categoria": "salgado",
+    "src": "https://www.receitas-sem-fronteiras.com/media/sanduiche-natural-g_crop.jpg/rh/sanduba.jpg"  
+  },
+  {
+    "nome": "Coxinha",
+    "preco": "4.5",
+    "categoria": "salgado",
+    "src": "https://img.cybercook.uol.com.br/imagens/receitas/610/coxinha-1.jpg"  
+  },
+  {
+    "nome": "Brownie",
+    "preco": "3",
+    "categoria": "doce",
+    "src": "http://s.glbimg.com/po/rc/media/2012/06/25/14/09/18/15/brownies_almaobesa.jpg"  
+  }
 ]
