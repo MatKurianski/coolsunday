@@ -24,13 +24,10 @@ class Produtos extends Component {
         this.setState({cards});
     }
 
-    fetchCards() {
-        fetch('/cards')
-        .then(res => res.json())
-        .then((cards) => {
-            this.setState({cards, loading: false});
-        })
-        .catch(err => console.log('fodeu'));
+    async fetchCards() {
+        let cards = await fetch('/cards')
+        cards = await cards.json();
+        this.setState({cards, loading: false});
     }
 
     render() {

@@ -8,19 +8,18 @@ class Loading extends Component {
             p: '...'
         }
     }
+
     componentDidMount() {
-        let interval = setInterval(() => {
-            if (this.state.p === '...') {
-                this.setState({p: '.'});
-            } else {
-                this.setState({p: this.state.p+'.'});
-            }
-            console.log('teste');
-        }, 500);
+      this.interval = setInterval(() => {
+        if (this.state.p === '...') 
+            this.setState({p: '.'});
+        else 
+            this.setState({p: this.state.p+'.'});
+      }, 500);
     }
 
     componentWillUnmount() {
-        clearInterval(this.interval);
+      clearInterval(this.interval);
     }
     
     render() {
